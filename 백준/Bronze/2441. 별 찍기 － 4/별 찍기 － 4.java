@@ -9,9 +9,9 @@ public class Main {
         int n = Integer.parseInt(br.readLine());
 
         for(int i=n; i>0; i--){
-            System.out.print(" ".repeat(n-i));
-            System.out.print("*".repeat(i));
-            System.out.println();
+            bw.write(" ".repeat(n - i));
+            bw.write("*".repeat(i));
+            bw.write("\n");
         }
 
         bw.flush();
